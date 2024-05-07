@@ -23,6 +23,11 @@ export default buildConfig({
       },
       fields: [
         {
+          name: 'featuredImage',
+          relationTo: 'media',
+          type: 'upload',
+        },
+        {
           name: 'title',
           type: 'text',
         },
